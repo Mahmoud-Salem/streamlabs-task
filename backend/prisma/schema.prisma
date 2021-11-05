@@ -1,0 +1,25 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// each user has a username which is his twitch handle to get more info if needed.
+model User {
+  id    Int     @default(autoincrement()) @id
+  username String @unique
+}
+
+// each stream has the game/category, number of viewers and the channel/streamer.
+model Stream {
+  id    Int     @default(autoincrement()) @id
+  game String 
+  viewers Int
+  channelName String?
+}

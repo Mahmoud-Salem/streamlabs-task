@@ -1,0 +1,34 @@
+version: '3'
+services:
+
+  backend:
+    build: ./backend
+    restart: always
+    ports:
+      - 5000:5000
+    links:
+      - 'postgres'
+
+
+  postgres:
+    image: postgres:13
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD:Ma@1
+      - POSTGRES_DB:StreamLabTask
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+
+  frontend:
+    build: ./frontend
+    restart: always
+    ports:
+      - 3000:3000
+
+volumes:
+  postgres:
+
+ 

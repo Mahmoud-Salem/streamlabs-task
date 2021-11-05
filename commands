@@ -1,0 +1,1 @@
+sudo docker-compose up --d --build; sudo docker-compose exec backend npm run dev:migrate
