@@ -1,0 +1,1 @@
+ssh -i /home/salem/SalemKey.pem ubuntu@ec2-3-144-93-219.us-east-2.compute.amazonaws.com
