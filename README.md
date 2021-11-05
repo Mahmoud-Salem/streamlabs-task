@@ -44,5 +44,8 @@ This task aims to build a website that get some data and analytics of twitch str
             as we are using FP, TS does not have a greater advantage over JS as the code will only uses functions not OOP, and it will just create overhead to keep track of all type and TS compilation time.
         * Using FP over OOP :
             the service required in this task is based on calculating some results over the data, which is more of a definiation of FP than OOP as we do not have relations/models or related factors that needed to be combined..  
-        
-    
+
+## INFO 
+    Name : Mahmoud Salem
+    Email : Salem.mahmoud1996@gmail.com
+    Position : Backend Engineer
