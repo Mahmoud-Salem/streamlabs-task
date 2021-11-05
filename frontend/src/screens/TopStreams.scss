@@ -1,0 +1,60 @@
+@import '../scss/variables';
+
+.projects-unapproved {
+    padding: 2vh 2vw;
+    border-radius: 5px;
+    // box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    // background-color: rgb(252, 252, 252);
+    text-align: left;
+}
+
+.projects-unapproved > span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.projects-card-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.project-card-container {
+    width: 33%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 2px;
+    max-height: fit-content;
+    margin-top: 2vh;
+    border: 1px solid black;
+    margin: 1vw;
+
+}
+
+
+
+.project-data {
+    padding: 0 1vw;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+    >span{
+        width: 100%;
+        max-height: 10vh;
+        overflow: auto;
+        word-wrap: break-word;
+        margin-top: 1vh;
+        font-weight: bold;
+        font-size: medium;
+        margin-bottom: 1vh;
+
+    }
+}

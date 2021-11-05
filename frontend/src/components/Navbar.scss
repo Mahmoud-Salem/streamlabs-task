@@ -1,0 +1,52 @@
+@import '../scss/variables';
+
+.navbar-container {
+    width: $navbar-width;
+    position: fixed;
+    height: 100vh;
+    background-color: #6675e7;
+
+    > img {
+        width: 2.4vw;
+        aspect-ratio: 1;
+        background-color: white;
+        border-radius: 100px;
+        padding: 0.5vw;
+        margin: 3.4vh 0;
+    }
+}
+
+.navbar-margin {
+    margin-left: $navbar-width;
+}
+
+
+// !Navbar Link
+.navbar-link {
+    transition-duration: 0.2s;
+    display: flex;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px 5px;
+    max-width: $navbar-width;
+    
+}
+
+.navbar-link:hover {
+    background-color: #a2acf7;   
+}
+
+.navbar-link > img {
+    width: 3vw;
+    height: 3vw;
+    aspect-ratio: 1;
+    filter: invert(1);
+    margin-right: 2vw;
+}
+
+.navbar-link > span {
+    font-size: flex;
+    font-family: cursive;
+}

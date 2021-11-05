@@ -1,0 +1,42 @@
+.custom-box-accept {
+    width: 2vw;
+    background-color: #3A5FD5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vw;
+    transition-duration: 0.2s;
+    // padding: 9px 50px;
+    font-size: 0.7em;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #3A5FD5;
+}
+
+.custom-box-accept:hover {
+    background-color: #6588fa;
+}
+
+.custom-box-reject {
+    width: 2vw;
+    background-color: white;
+    color: #3A5FD5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vw;
+    transition-duration: 0.2s;
+    // padding: 9px 50px;
+    font-size: 0.7em;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #3A5FD5;
+}
+
+.custom-box-reject:hover {
+    background-color: #3A5FD5;
+    color: white;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+@import './scss/variables';
+
+
+.App {
+  text-align: center;
+  font-family: Roboto;
+  background-color: $background;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
