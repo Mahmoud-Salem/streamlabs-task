@@ -11,6 +11,8 @@ This task aims to build a website that get some data and analytics of twitch str
 
 ### Public link for the service 
 
+    https://streamlabsfrontend.vercel.app/
+
 
 ### Overview
  ```
