@@ -12,6 +12,9 @@ This task aims to build a website that get some data and analytics of twitch str
 ### Public link for the service 
 
     https://streamlabsfrontend.vercel.app/
+you can also access the api from 
+    https://3.144.93.219:443/
+
 
 
 ### Overview
